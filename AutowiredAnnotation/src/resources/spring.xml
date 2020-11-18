@@ -46,8 +46,8 @@ http://www.springframework.org/schema/tx http://www.springframework.org/schema/t
 		<property name="model" value="2018"/>
 	</bean>
 	
-	<bean id="e2" class="beans.Engine">
+	<!-- <bean id="e2" class="beans.Engine">
 		<property name="model" value="2018"/>
-	</bean>
+	</bean> -->
 
 </beans>

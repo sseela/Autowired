@@ -16,7 +16,7 @@ public class Test {
 		ApplicationContext ap = new ClassPathXmlApplicationContext("resources/spring.xml");
 		// If we use j2ee container, then as soon as xml is loaded, ApplicationContext will create instanstantiation of singleton beans and inject the dependencies
 		System.out.println("after loading xml");
-		Car c = (Car)ap.getBean("car");
+		Car c = (Car)ap.getBean("car"); 
 		System.out.println(c.getPrice());
 		System.out.println(c.getEngine().getModel());
 		//System.out.println(c.getCarlist());
